@@ -17,9 +17,12 @@ body:
     attributes:
       label: Save file
       description: >-
-        Drag and drop a save file here (GitHub uploads it and inserts a link
-        automatically), or paste a link to where you got one.
-      placeholder: Drop your save file here...
+        GitHub only accepts drag-and-drop files it recognizes, and most save
+        files (often no extension, or a custom one) get rejected as-is. **Zip
+        the save file first** (right-click it → Compress/Send to → Zip), then
+        drag the .zip here — GitHub uploads it and inserts a link
+        automatically. A link to where you got the save also works.
+      placeholder: Drop the zipped save file here...
     validations:
       required: true
 
