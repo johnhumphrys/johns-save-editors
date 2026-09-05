@@ -1,0 +1,32 @@
+name: Request a save editor
+description: Ask for a new game to be added to John's Save Editors.
+title: "[Game Request] "
+labels: ["game-request"]
+body:
+  - type: input
+    id: game-name
+    attributes:
+      label: Game name
+      description: The exact title of the game (include platform/edition if it matters).
+      placeholder: e.g. Prison Escape Simulator
+    validations:
+      required: true
+
+  - type: textarea
+    id: save-file
+    attributes:
+      label: Save file
+      description: >-
+        Drag and drop a save file here (GitHub uploads it and inserts a link
+        automatically), or paste a link to where you got one.
+      placeholder: Drop your save file here...
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything else — where you got the save, what fields you'd like editable, etc.
+    validations:
+      required: false
