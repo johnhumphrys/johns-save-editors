@@ -17,11 +17,12 @@ body:
     attributes:
       label: Save file
       description: >-
-        GitHub only accepts drag-and-drop files it recognizes, and most save
-        files (often no extension, or a custom one) get rejected as-is. **Zip
-        the save file first** (right-click it → Compress/Send to → Zip), then
-        drag the .zip here — GitHub uploads it and inserts a link
-        automatically. A link to where you got the save also works.
+        An actual save file is required — this can't be done from a
+        description alone. GitHub only accepts drag-and-drop files it
+        recognizes, and most save files (often no extension, or a custom one)
+        get rejected as-is. **Zip the save file first** (right-click it →
+        Compress/Send to → Zip), then drag the .zip here — GitHub uploads it
+        and inserts a link automatically.
       placeholder: Drop the zipped save file here...
     validations:
       required: true
